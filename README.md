@@ -26,7 +26,7 @@ MAS ENQUANTO EXISTIREM RESULTADOS PARA SEREM EXIBIDOS, ELE CONTINUARÁ EXIBINDO.
 
 A estrutura é a mesma, todas tem um título, uma URL, uma descrição e o link.
 
-A ESTRUTURA É A MESA, ELA SE REPETE ENQUANTO TIVER RESULTADOS PARA SEREM EXIBIDOS.
+A ESTRUTURA É A MESMA, ELA SE REPETE ENQUANTO TIVER RESULTADOS PARA SEREM EXIBIDOS.
 
 O enquanto é um tipo de laço de repetição, mas não o único. Existe, dependendo da linguagem escolhida, alguns tipos de laço de repetição; no Python especificamente, existem basicamente dois tipos:
 
