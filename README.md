@@ -39,6 +39,8 @@ A instrução for em Python difere um pouco do que você pode estar acostumado e
 
 ---
 
+### LAÇO WHILE
+
 while [V] esse trecho que estiver aqui for verdadeiro, ele irá executará
 o que está aqui.
 
@@ -86,4 +88,4 @@ ENTÃO NA PRÓXIMA VOLTA A PERGUNTA QUE SERÁ FEITA É A SEGUINTE: 2 É MENOR DO
 
 ---
 
-
+### LAÇO FOR                                 
