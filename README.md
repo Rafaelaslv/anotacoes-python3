@@ -90,4 +90,20 @@ ENTÃO NA PRÓXIMA VOLTA A PERGUNTA QUE SERÁ FEITA É A SEGUINTE: 2 É MENOR DO
 
 ### LAÇO FOR
 
-### LAÇO FOR                                 
+O laço for (para) funciona de maneira similar ao While e contrapõe a forma tradicional de outras linguagens. Enquanto a maioria das outras linguagens requerem um incremento numérico, o laço for em Python apenas requer que haja incidência de dados, testados com uma proposição verdadeira,  a serem trabalhados para continuar em execução.
+
+Um exemplo prático desse tipo de estrutura:
+
+Pressuponha que exista uma lista de nomes escritos dentro de um algoritmo Python. Dentre eles, 10 inicial com a letra M. Utilizando o laço For, é possível requerer que sejam exibidos na tela todos os nomes que iniciem com M a partir dessa lista. O Python por si só, fará a seguinte sequência de ações:
+
+Acessará a lista
+Verificará a regra imposta (apenas nomes iniciados com a letra M)
+Agrupará os resultados
+Exibirá os resultados em tela, conforme descrito no algoritmo
+A lógica trabalhada pelo laço for analisará, similar ao While, o seguinte: enquanto existirem dados para serem resgatados, o laço permanecerá em execução.
+
+ADICIONAR ALGORITMO
+
+Outra forma de trabalhar com o laço for é por meio de voltas simples do laço. Pode-se perfeitamente requerer que o laço de repetição simplesmente imprima (ou execute) uma sequência de vezes, como demonstrado na Figura 23 (note que novamente foi utilizado o recurso “end” para determinar que ao final da linha deveria haver um espaço em branco, de forma a concentrar a impressão do conteúdo em apenas uma linha.
+
+ADICIONAR ALGORITMO
