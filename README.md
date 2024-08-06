@@ -88,4 +88,6 @@ ENTÃO NA PRÓXIMA VOLTA A PERGUNTA QUE SERÁ FEITA É A SEGUINTE: 2 É MENOR DO
 
 ---
 
+### LAÇO FOR
+
 ### LAÇO FOR                                 
