@@ -102,11 +102,15 @@ Agrupará os resultados
 Exibirá os resultados em tela, conforme descrito no algoritmo
 A lógica trabalhada pelo laço for analisará, similar ao While, o seguinte: enquanto existirem dados para serem resgatados, o laço permanecerá em execução.
 
-ADICIONAR ALGORITMO
+a = {"Python", "PHP", "JavaScript"}
+for b in a:
+    print(b)
 
 Outra forma de trabalhar com o laço for é por meio de voltas simples do laço. Pode-se perfeitamente requerer que o laço de repetição simplesmente imprima (ou execute) uma sequência de vezes, como demonstrado na Figura 23 (note que novamente foi utilizado o recurso “end” para determinar que ao final da linha deveria haver um espaço em branco, de forma a concentrar a impressão do conteúdo em apenas uma linha.
 
-ADICIONAR ALGORITMO
+a = "Python"
+for b in a:
+    print(a, end = " ")
 
 ---
 
@@ -126,11 +130,18 @@ Os laços de repetição não se limitam a apenas imprimir valores em tela. Eles
 
 Um professor precisa digitar o nome e a nota de 3 alunos e esses dados precisam ser impressos em tela. O algoritmo poderia ser feito da seguinte forma (note que não foi inserido o casting para inteiro ou número decimal, pois como o objetivo não é fazer cálculos, não há a necessidade que o valor inserido seja considerado número ou caractere):
 
-ADICIONAR ALGORITMO
+nome1 = input("Digite o nome do aluno: ")
+nota1 = input("Digite a nota do aluno: ")
+nome2 = input("Digite o nome do aluno: ")
+nota2 = input(Digite a nota do aluno: ")
 
 O escopo do algoritmo está funcionando perfeitamente e, em tese, não há nada de errado com ele, todavia, o algoritmo está travado e não-escalável. Isso significa que se um novo aluno for inserido na turma, duas novas variáveis precisarão ser criadas: “nome4” e “nota4”. Em programação, a falta de escalabilidade deve ser sumariamente eliminada.
 
 Mas como conseguir dinamizar essas operações? Simples: com laço de repetição.
+
+---
+
+
 
 
 
