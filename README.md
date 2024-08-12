@@ -146,6 +146,14 @@ Mas como conseguir dinamizar essas operações? Simples: com laço de repetiçã
 
 Observe que ocorre uma repetição do que é requerido do usuário: sempre é solicitada a digitação de um nome e uma nota, logo, uma ação que se repete, ainda que com pequenas alterações, pode ser implementada com laço de repetição, veja:
 
+a = 1
+
+while a <= 3:
+    nome = input("Digite o nome do aluno: ")
+    nota = input("Digite a nota do aluno: ")
+    print(nome, ": ", nota)
+    a = a + 1
+    
 ---
 
 
