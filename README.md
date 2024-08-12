@@ -153,8 +153,57 @@ while a <= 3:
     nota = input("Digite a nota do aluno: ")
     print(nome, ": ", nota)
     a = a + 1
+
+    Além de o código ficar menor, ser escalável, ele é, em uma visão computacional, mais “elegante”, uma vez que utiliza recursos mais robustos e menos manuais visando o aproveitamento de tempo e reaproveitamento de código. 
     
 ---
+
+### SIMULANDO LAÇOS EM CASOS REAIS
+
+Na prática, laços de repetição podem ser utilizados em vários cenários, mas listei aqui algumas situações triviais que às vezes você nem perceba:
+
+Paginação de resultados de busca
+Feed de posts em uma rede social
+Lista de e-mails recebidos
+Painéis de senha de atendimento automático
+Listagem de clientes de uma loja
+
+Observe que até mesmo em situações comuns do dia a dia os laços de repetição estão presentes, realizando seu trabalho de forma oculta e discreta. A partir de agora, sugiro que você passe a focar sua atenção nessas trivialidades do dia a dia, não apenas com os laços de repetição, mas também com condicionais e outros recursos de programação que veremos mais adiante.
+
+Fazer essas verificações irá aprimorar seu raciocínio computacional e fará você ter uma lógica mais refinada. Tente, quando possível, algoritmizar tudo o que vir no seu dia a dia, transformando situações comuns em pequenos trechos de Python, mentalmente. No começo pode parecer difícil mas com o tempo vai se tornando cada vez mais simples e divertido.
+
+---
+
+### Como aplicar na prática o que aprendeu
+
+A ideia de laços de repetição é algo realmente fascinante e você pode explorar esse novo conhecimento de formas diversas. Alguns exemplos práticos foram passados durante a aula mas você pode (e deve) ir além.
+
+Tente analisar no dia a dia os locais onde poderiam existir laços de repetição e aplique o conhecimento na prática para utilizá-los. Como base, darei alguns exemplos que você pode explorar e que, possivelmente você já utiliza diariamente sem saber:
+
+Listagem de produtos de uma loja virtual
+Listagem de e-mails recebidos
+Lista de contatos no WhatsApp
+
+---
+
+### Tópicos avançados
+
+Os laços de repetição do tipo FOR são extremamente abrangentes e versáteis, possibilitando uma infinidade de usos e aplicações. Uma maneira interessante de você compreender o uso de laços de repetição de uma maneira diferenciada é a seguinte:
+
+Pressuponha que existam alguns registros em um banco de dados e você precise resgatá-los para exibir em tela. Parta do princípio que este é um banco de dados grande e com uma considerável gama de informações, ou seja, você não sabe a quantidade de conteúdo que este banco armazena.
+
+Se você não sabe a quantidade de dados que deverá “puxar” para a tela, como fazer um laço de repetição de forma a definir a quantidade de voltas que ele deverá dar? Simples: com o laço FOR!
+
+O laço for irá armazenar os dados em uma variável (no formato de vetor) e a única coisa que você precisará fazer é pedir ao laço para ler todos os dados armazenados naquela variável/vetor e exibi-los individualmente em tela.
+
+---
+
+
+Códigos utilizados na disciplina: https://github.com/FaculdadeDescomplica/Python
+
+
+
+
 
 
 
