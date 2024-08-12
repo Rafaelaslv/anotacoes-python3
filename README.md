@@ -134,10 +134,17 @@ nome1 = input("Digite o nome do aluno: ")
 nota1 = input("Digite a nota do aluno: ")
 nome2 = input("Digite o nome do aluno: ")
 nota2 = input(Digite a nota do aluno: ")
+nome3 = input("Digite o nome do aluno: ")
+nota3 = input("Digite a nota do aluno: ")
+print(nome1, ": ", nota1)
+print(nome2, ": ", nota2)
+print(nome3 ": ", nota 3)
 
 O escopo do algoritmo está funcionando perfeitamente e, em tese, não há nada de errado com ele, todavia, o algoritmo está travado e não-escalável. Isso significa que se um novo aluno for inserido na turma, duas novas variáveis precisarão ser criadas: “nome4” e “nota4”. Em programação, a falta de escalabilidade deve ser sumariamente eliminada.
 
 Mas como conseguir dinamizar essas operações? Simples: com laço de repetição.
+
+Observe que ocorre uma repetição do que é requerido do usuário: sempre é solicitada a digitação de um nome e uma nota, logo, uma ação que se repete, ainda que com pequenas alterações, pode ser implementada com laço de repetição, veja:
 
 ---
 
