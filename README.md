@@ -107,3 +107,43 @@ ADICIONAR ALGORITMO
 Outra forma de trabalhar com o laço for é por meio de voltas simples do laço. Pode-se perfeitamente requerer que o laço de repetição simplesmente imprima (ou execute) uma sequência de vezes, como demonstrado na Figura 23 (note que novamente foi utilizado o recurso “end” para determinar que ao final da linha deveria haver um espaço em branco, de forma a concentrar a impressão do conteúdo em apenas uma linha.
 
 ADICIONAR ALGORITMO
+
+---
+
+### LAÇOS E VARIÁVEIS
+
+Da mesma maneira que lidamos com dados fixos ou baseados em listas de valores, é possível utilizar os laços de repetição para obter informações de forma automática baseada em variáveis constantes dentro da própria estrutura do laço.
+
+Uma forma prática de se fazer isso é utilizando a própria variável de controle que, via de regra, alterna seu valor a cada volta do laço. Este exemplo foi utilizado na Figura 20, em que a variável “a” era, ao mesmo tempo, a controladora das voltas do laço e o valor impresso em tela.
+
+Esta forma de se trabalhar é bastante recorrente em nosso dia a dia, como por exemplo, em paginações de sites, como demonstrado na Figura 24.
+
+---
+
+### LAÇOS E INPUT/OUTPUT DE DADOS
+
+Os laços de repetição não se limitam a apenas imprimir valores em tela. Eles podem ser utilizados, como você já pôde perceber, para variadas ações dentro de um algoritmo. Uma prática interessante, é dinamizar o processo de inserção de valores sequenciais, digitados pelo usuário. Considere a seguinte situação:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
