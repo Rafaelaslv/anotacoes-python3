@@ -124,6 +124,23 @@ Esta forma de se trabalhar é bastante recorrente em nosso dia a dia, como por e
 
 Os laços de repetição não se limitam a apenas imprimir valores em tela. Eles podem ser utilizados, como você já pôde perceber, para variadas ações dentro de um algoritmo. Uma prática interessante, é dinamizar o processo de inserção de valores sequenciais, digitados pelo usuário. Considere a seguinte situação:
 
+Um professor precisa digitar o nome e a nota de 3 alunos e esses dados precisam ser impressos em tela. O algoritmo poderia ser feito da seguinte forma (note que não foi inserido o casting para inteiro ou número decimal, pois como o objetivo não é fazer cálculos, não há a necessidade que o valor inserido seja considerado número ou caractere):
+
+ADICIONAR ALGORITMO
+
+O escopo do algoritmo está funcionando perfeitamente e, em tese, não há nada de errado com ele, todavia, o algoritmo está travado e não-escalável. Isso significa que se um novo aluno for inserido na turma, duas novas variáveis precisarão ser criadas: “nome4” e “nota4”. Em programação, a falta de escalabilidade deve ser sumariamente eliminada.
+
+Mas como conseguir dinamizar essas operações? Simples: com laço de repetição.
+
+
+
+
+
+
+
+
+
+
 
 
 
