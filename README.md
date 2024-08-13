@@ -114,6 +114,11 @@ for b in a:
 
 ---
 
+### LAÇOS AVANÇADOS
+
+O laço for 
+---
+
 ### LAÇOS E VARIÁVEIS
 
 Da mesma maneira que lidamos com dados fixos ou baseados em listas de valores, é possível utilizar os laços de repetição para obter informações de forma automática baseada em variáveis constantes dentro da própria estrutura do laço.
