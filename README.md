@@ -116,7 +116,20 @@ for b in a:
 
 ### LAÇOS AVANÇADOS
 
-O laço for 
+O laço for segue a mesma linha de raciocínio do laço while. A diferença é que ele tem algumas subdivisões/subcategorias.
+
+ESTRUTURA MAIS BÁSICA DO LAÇO FOR:
+
+for a in 
+PARA UMA VARIÁVEL QUALQUER, QUE NO CASO ESTOU CHAMANDO DE a, que estejam dentros de algumas regras.
+
+PEDINDO PARA O LAÇO RODAR 5 VEZES CONSECUTIVAS:
+
+for a in range(5):
+    print("marcio")
+
+VETOR É A POSSIBLIDADE DE ARMAZENARMOS VÁRIOS VALORES EM APENAS UM LUGAR.
+
 ---
 
 ### LAÇOS E VARIÁVEIS
