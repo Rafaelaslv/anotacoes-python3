@@ -120,6 +120,8 @@ O laço for segue a mesma linha de raciocínio do laço while. A diferença é q
 
 ESTRUTURA MAIS BÁSICA DO LAÇO FOR:
 
+PRIMEIRO TIPO
+
 for a in 
 PARA UMA VARIÁVEL QUALQUER, QUE NO CASO ESTOU CHAMANDO DE a, que estejam dentros de algumas regras.
 
@@ -134,6 +136,8 @@ DENTRO DE UMA MESMA CAIXINHA QUE É UM POUCO MAIOR DO QUE A DA VARIÁVEL, VOCÊ 
 
 SEMPRE QUE FOR FAZER UMA LISTA, COLOCAMOS OS COLCHETES[] E RECEBERÁ UMA LISTA DE ELEMENTOS, PONDENDO SER NÚMEROS, TEXTOS, ...
 
+SEGUNDO TIPO:
+
 a = ["Marcio", "Larissa", "Benedito", "André"]
 
 for a in a:
@@ -142,6 +146,29 @@ for a in a:
 E PARA CADA ITEM QUE EU ACHAR NESSA LISTA, IREI IMPRIMIR ELE NA TELA.)
 
 E isso significa que ele vai varrer essa lista item por item e para cada item que ele achar, ele imprimirá na tela.
+
+NA PRÁTICA, NESSE TIPO DE APLICAÇÃO, VOCÊ NÃO IRÁ INSERIR A INFORMAÇÃO, MAS VOCê COLOCARÁ O SEU a DENTRO DE UM LAÇO DE REPETICÇÃO E A PESSOA DIGITARÁ O VALOR QUE ELA DESEJA COLOCAR NA LISTA. E DEPOIS VOCÊ PEDE PARA QUE O FOR LISTE ITEM A ITEM DESTA LISTA.
+
+TERCEIRO TIPO:
+
+a = "Descomplica"
+
+for a in a:
+    print(a)
+
+D
+e
+s
+c
+o
+m
+p
+l
+i
+c
+a
+
+Ele pegou a palavra Descomplica e quebrou cada letra em uma posição diferente. EM OUTRAS PALAVRAS, ELE PEGOU A PALAVRA Descomplica E DESMEMBROU ELA PARA CADA VOLTA DO LAÇO IMPRIMIR UMA LETRA. E NÃO FOI NECESSÁRIO COLOCAR NENHUMA FUNÇÃO OU RECURSO EXTRA, MAS SÓ O FATO DE COLOCAR UM TEXTO/SPRING ASSOCIADO À UMA VARIÁVEL E COLOCAR PARA RODAR DENTRO DE UM LAÇO FOR, O PYTHON JÁ ENTENDE QUE É PARA EXIBIR LETRA POR LETRA.
 
 ---
 
