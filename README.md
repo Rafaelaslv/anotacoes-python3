@@ -182,6 +182,10 @@ Esta forma de se trabalhar é bastante recorrente em nosso dia a dia, como por e
 
 ---
 
+NO EXEMPLO DO DIRETOR DA ESCOLA PRECISAR INSERIR OS DADOS DOS ALUNOS NO SISTEMA, UTILIZAREMOS O LAÇO WHILE, MAS PODE SER UTILIZADO O LAÇO FOR.
+
+---
+
 ### LAÇOS E INPUT/OUTPUT DE DADOS
 
 Os laços de repetição não se limitam a apenas imprimir valores em tela. Eles podem ser utilizados, como você já pôde perceber, para variadas ações dentro de um algoritmo. Uma prática interessante, é dinamizar o processo de inserção de valores sequenciais, digitados pelo usuário. Considere a seguinte situação:
