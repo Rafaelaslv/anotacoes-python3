@@ -261,6 +261,12 @@ Observe que até mesmo em situações comuns do dia a dia os laços de repetiç�
 
 Fazer essas verificações irá aprimorar seu raciocínio computacional e fará você ter uma lógica mais refinada. Tente, quando possível, algoritmizar tudo o que vir no seu dia a dia, transformando situações comuns em pequenos trechos de Python, mentalmente. No começo pode parecer difícil mas com o tempo vai se tornando cada vez mais simples e divertido.
 
+a = []
+b = 1
+
+while b <= 1:
+    a.append(input("Digite o nome do aluno: "))
+
 ---
 
 ### Como aplicar na prática o que aprendeu
